@@ -1,0 +1,27 @@
+.main {
+    width: 100%;
+    height: 100%;
+    background: #7fb3aa;
+    display: flex;
+    background: radial-gradient(circle, rgba(127, 179, 170, 1) 0%, rgba(86, 132, 179, 1) 100%);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.tamer {
+    color: #fff;
+    font-size: 800%;
+}
+
+.aa1 {
+    font-size: 20%;
+}
+
+.r {
+    display: block;
+    width: 100%;
+    height: 0%;
+}
