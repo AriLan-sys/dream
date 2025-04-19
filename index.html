@@ -32,7 +32,7 @@
 
         </div>
         <div class="tamer">
-            <p class="aa1">TIME LEFT</p>
+            <p class="aa1">TIME LEFT UNTIL YOUR BIRTHDAY</p>
         </div>
         <div class="r">
 
@@ -48,7 +48,7 @@
         </div>
     </div>
     <script>
-        const targetDate = new Date("May 15, 2025 00:00:00").getTime();
+        const targetDate = new Date("July 11, 2025 00:00:00").getTime();
 
         const countdown = document.getElementById("countdown");
 
@@ -58,7 +58,7 @@
 
             if (timeLeft <= 0) {
                 clearInterval(timer);
-                countdown.innerHTML = "YES!";
+                countdown.innerHTML = "HAPPY BIRTHDAY!";
             } else {
                 const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
                 const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
